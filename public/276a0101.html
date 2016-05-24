@@ -1,0 +1,90 @@
+ <!DOCTYPE HTML>
+ <html>
+
+ <head>	
+ <meta name="description" 	content = "CMPT 276 Assignment 1, Grade Calculator"/>
+ <meta http-equiv="author" content="Yi Sun, Louie, 301161973" />
+ <link rel="stylesheet" type="text/css"	href="276a0101.css">
+
+ <title>Grade Calculator</title>
+ </head>
+ 
+ <body>
+ 
+ 
+ <div id="background" >
+ 	<div id="main">
+ 		<h1>Grade Calulator</h1>
+ 	<div id="fnc">
+		<br \>
+		<h2>Activities</h2>
+		<br \>
+		<h3>Give grades to the numeric activities</h3>
+		<br \>
+<form id="number">
+	<table id="thetable" >
+	<tr>
+		<th>Name</th>
+		<th>Short Name</th>
+		<th>Grade</th>
+		<th>Percentage</th>
+	</tr>
+	<tr>
+		<td>Activity1</td>
+		<td>A1</td>
+		<td><input type="number"   id="a1" class="fenzi" onChange="pctfn(a1.value,b1.value,pct1)" placeholder="Your Marks..">
+		/<input type="number"   id="b1" class="fenmu" onChange="pctfn(a1.value,b1.value,pct1)" placeholder="Out of .."></td>
+		<td><p id="pct1" class="pct"></p></td>
+	</tr>
+	<tr>
+		<td>Activity2</td>
+		<td>A2</td>
+		<td><input type="number"   id="a2" class="fenzi" onChange="pctfn(a2.value,b2.value,pct2)">
+		/<input type="number"   id="b2" class="fenmu" onChange="pctfn(a2.value,b2.value,pct2)"></td>
+		<td><p id="pct2" class="pct"></p></td>
+	</tr>
+		<tr>
+		<td>Activity3</td>
+		<td>A3</td>
+		<td><input type="number"   id="a3" class="fenzi" onChange="pctfn(a3.value,b3.value,pct3)">
+		/<input type="number"   id="b3" class="fenmu" onChange="pctfn(a3.value,b3.value,pct3)"></td>
+		<td><p id="pct3" class="pct" ></p></td>
+	</tr>
+	<tr>
+		<td>Activity4</td>
+		<td>A4</td>
+		<td><input type="number"   id="a4" class="fenzi" onChange="pctfn(a4.value,b4.value,pct4)">
+		/<input type="number"   id="b4" class="fenmu" onChange="pctfn(a4.value,b4.value,pct4)"></td>
+		<td><p id="pct4" class="pct"></p></td>
+	</tr>
+	
+	<tfoot>
+	  <td><b>TOTAL</b></td>
+		<td><p id="t1"></p></td>
+		<td><p id="t2"></p></td>
+		<td><p id="t3"></p></td>
+		
+	</tfoot>
+	
+	</table>
+	<div align="left"><br \> 
+    </div>
+	<button type="button" name="s1"class="buttonavg" onClick="avgFn()">AVERAGE</button>
+	<button type="button" name="s2" class="buttonmean" onClick="meanFn()">MEAN</button>
+<!--	<button	type="button" name="lg"	class="buttonlg" onClick="lgFn()"> LETTER GRADE</button>  -->
+	<button type="reset" name="clr" class="buttonclr" onClick="clrFn()">CLEAR</button>
+	<button type="button" name="rfs" class="buttonrfs" onClick="rfsFn()">REFRESH </button>
+ 
+
+
+ 
+ 	</div>
+	</div>
+ </div>
+
+ 
+   <script type="text/javascript" src="276a0101.js">
+ </script>
+</form>
+ </body>
+</html>

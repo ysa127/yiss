@@ -1,0 +1,156 @@
+/* CSS Document */
+ 
+
+#background { background-color:#A7192F; 
+			  width:1100px; 
+			  height:auto}
+ 
+		  
+#main {background-color:#FFFFFF;
+		 width:900px;
+		 height:auto;
+		 margin: 20px 20px 100px 100px;
+		 display:inline-block;
+		  }
+		  
+#thetable { border-style:solid;
+border-color:#999999;
+table-layout:fixed;
+width:800px;
+margin-left:10px;
+ 
+}
+
+		 
+#fnc {background:#E7EFF1;
+	  width: 850px;
+	  height:auto;
+	  margin-left:10px;
+	  margin-top: 10px;
+	  margin-bottom:15px;
+
+	  display:inline-block
+	  }
+
+
+input[type='number'] {-moz-appearance:textfield;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+ {-webkit-appearance: none;}
+
+h1 { font-family:Arial, Helvetica, sans-serif;
+	 font-size: 36px;
+	 color:#000000;
+	 margin-left:15px}
+		  
+h2{ color: #CC3333;
+	font-size:26px;
+	margin-left:5px
+	}
+
+
+h3{ color:#000000;
+	font-family:"Times New Roman", Times, serif;
+	font-size : 20px;
+	margin-left:5px
+	}
+	
+.fenzi,.fenmu{ width:65px;}
+
+table { border-collapse:collapse;
+		border-color:#000000;
+		border-width:thin;
+		border-style:solid
+		margin-left:5px;
+				}
+		
+		
+th {padding:5px 10px;text-align:left;
+	background-color: #CCCCCC;
+	 }
+
+td {padding: 5px 10px;text-align:left; width:"30"}
+
+td,th{ border-style:solid;
+border-color:#999999;
+border-width:thin;}
+.buttonavg { margin-left:400px; 
+			 background-color:#A7192F;
+			 color:white;
+			 border:none;
+			 width:80px;
+			 height:35px;
+			 display:inline;
+			 border-radius:6px;
+			 font:"Times New Roman", Times, serif;
+			 
+			 }
+
+			 
+.buttonmean {  
+			 background-color:#A7192F;
+			 color:white;
+			 border:none;
+			 width:80px;
+			 height:35px;
+			 display:inline;
+			 border-radius:6px;
+			  font:"Times New Roman", Times, serif;
+			 	}
+
+.buttonclr {  
+			 background-color:#A7192F;
+			 color:white;
+			 border:none;
+			 width:80px;
+			 height:35px;
+			 display:inline;
+			 border-radius:6px;
+			  font:"Times New Roman", Times, serif;
+			 	}
+.buttonrfs { background-color:#A7192F;
+			 color:white;
+			 border:none;
+			 width:80px;
+			 height:35px;
+			 display:inline;
+			 border-radius:6px;
+			  font:"Times New Roman", Times, serif;}
+.buttonlg { background-color:#A7192F;
+			 color:white;
+			 border:none;
+			 width:80px;
+			 height:35px;
+			 display:inline;
+			 border-radius:6px;
+			  font:"Times New Roman", Times, serif;}
+				
+.buttonmean:hover { background-color: #FFFF99;
+					color:#CC3333; 
+					width:100px;
+					height 50px;
+					}
+					
+.buttonavg:hover { background-color:#FFFF99;
+					color:#CC3333;
+					width:100px;
+					height 50px;
+					 }
+					 
+.buttonclr:hover { background-color:#FFFF99;
+					color:#CC3333;
+					width:100px;
+					height 50px;
+					
+					 }
+.buttonrfs:hover { background-color:#FFFF99;
+					color:#CC3333;
+					width:100px;
+					height 50px;
+					
+					 }
+					 
+.buttonlg:hover{background-color:#FFFF99;
+					color:#CC3333;
+					width:100px;
+					height 50px;}
